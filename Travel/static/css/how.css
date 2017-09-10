@@ -1,0 +1,182 @@
+
+
+.stripe4{
+    background-image:url("../images/img3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:700px;
+}
+
+.textstr4{
+    color:white;
+    font-size:40px;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+    padding: 280px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.textstr42{
+    color:white;
+    font-size:30px;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+    margin-top:-90px;
+    text-align: center;
+    width:70%;
+}
+
+.textstr43{
+    color:white;
+    font-size:30px;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+    margin-top:-100px;
+    text-align: center;
+    width:70%;
+}
+
+.textstr44{
+    color:white;
+    font-size:36px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-weight:bold;
+    width:80%;
+    margin:auto;
+    margin-top:60px;
+}
+
+.protocol{
+    padding-top:30px;
+}
+
+.how{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:3px solid #073763;
+    border-radius:5px;
+    margin-top:20px;
+}
+
+.howtitle{
+    color:#073763;
+    font-size:24px;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+    text-align: center;
+    font-weight:bold;
+    padding-top:40px;
+    width:80%;
+}
+
+.howtext{
+    color:#073763;
+    font-size:18px;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+    text-align: center;
+    width:60%;
+    padding-top:10px;
+}
+
+.learnmore{
+    padding-top:30px;
+}
+
+.btn1{
+    height: 80px;
+    margin-top:30px;
+    width:400px;
+    background:    #3d85c6;
+    background:    -webkit-linear-gradient(#3d85c6, #073763);
+    background:    linear-gradient(#3d85c6, #073763);
+    border-radius: 5px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal 16px;
+    text-align:    center;
+    text-shadow:   1px 1px #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:40px;
+}
+
+.steps{
+    height:300px;
+}
+
+.howtitle1{
+    color:#073763;
+    font-size:24px;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+    font-weight:bold;
+    padding-top:40px;
+    width:80%;
+}
+
+.howtext1{
+    color:#073763;
+    font-size:18px;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+    width:80%;
+    padding-top:10px;
+    text-align: justify;
+}
+
+.detailsimg1{
+    height: 200px;
+    width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+}
+
+.detailsimg2{
+    height: 200px;
+    width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+}
+
+.detailsimg3{
+    height: 200px;
+    width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    margin-top:50px;
+}
+
+.detailsimg4{
+    height: 200px;
+    width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+    margin-top:50px;
+}
+
+.detailsimg5{
+    height: 200px;
+    width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+}
+
+#hiddenhow{
+    margin-top:50px;
+}
+

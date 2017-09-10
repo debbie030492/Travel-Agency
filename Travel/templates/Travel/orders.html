@@ -1,0 +1,21 @@
+{% extends "Travel/base2.html" %}
+
+{% block content %}
+
+    {% for order in orders %}
+        <div class="orders">
+            <p><span class= "orderstext">Order number :</span><span class= "orderssubtext"> &nbsp;&nbsp;{{order.id}}</span></p>
+            <p><span class= "orderstext">First name :</span><span class= "orderssubtext space"> &nbsp;&nbsp;{{order.First_name}}</span>
+            <span class= "orderstext">Last name :</span><span class= "orderssubtext"> &nbsp;&nbsp;{{order.Last_name}}</span></p>
+            <p><span class= "orderstext">Date of departure :</span><span class= "orderssubtext"> &nbsp;&nbsp;{{order.Date_of_departure}}</span></p>
+            <p><span class= "orderstext">Number of travelers :</span><span class= "orderssubtext"> &nbsp;&nbsp;{{order.Number_of_travelers}}</span></p>
+            <p><span class= "orderstext">Package :</span><span class= "orderssubtext space"> &nbsp;&nbsp;{{order.Package}}</span>
+            <span class= "orderstext">Price :</span><span class= "orderssubtext">&nbsp;&nbsp;{{order.Price}} €</span></p>
+            <p><span class= "orderstext">Departing city :</span><span class= "orderssubtext"> &nbsp;&nbsp;{{order.Departing_city}}</span></p>
+            <p><span class= "orderstext">Status :</span><span class= "orderssubtext">&nbsp;&nbsp;{{order.Status}}</span></p>
+        </div>
+        <hr class="featurette-divider">
+    {% endfor %}
+
+{% endblock %}
+    

@@ -1,0 +1,16 @@
+{% extends "Travel/base2.html" %}
+
+{% block content %}
+
+          <div class="signupform">
+            <h2 class="signuptitle">REGISTER</h2>
+            <br><br><br>
+            <form method="post">
+              {% csrf_token %}
+              <p class="inputsignup">{{ form.as_p }}</p>
+              <br><br><br>
+              <a href="/login"><button class="btn1" type="submit">SIGN UP</button></a>
+            </form>
+          </div>
+{% endblock %}
+          

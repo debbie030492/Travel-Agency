@@ -1,0 +1,16 @@
+{% extends "Travel/base.html" %}
+
+{% block content %}
+
+        {% for package in packages %}
+            <div class="package">
+                <img class="packagepic" src="{{package.picture}}">
+                <h1 class="packagetitle">{{package.title}}</h1>
+                <p class="packagedes">{{package.description|linebreaksbr}}</p>
+                <h3 class="packageprice">{{package.price}}€ / person</h3>
+            </div>
+            <hr class="featurette-divider">
+        {% endfor %}
+
+{% endblock %}
+

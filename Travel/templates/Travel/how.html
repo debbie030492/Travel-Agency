@@ -1,0 +1,104 @@
+{% extends "Travel/base.html" %}
+
+{% block content %}
+
+    <div class="stripe4">
+        <h1 class="textstr4">HOW IT WORKS</h1>
+        <p class="textstr42">Do you spend weeks dreaming of weekend getaways ? </p>
+        <p class="textstr43">Love traveling but loathe planning.</p>
+        <br>
+        <p class="textstr44">Be adventurous. Be spontaneous. Embrace the unknown.</p>
+    </div>
+    <div class="row protocol">
+        <div class="col-lg-4">
+            <img class="how" src="../../static/images/pic1.png" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="howtitle">LOGIN AND SELECT YOUR PACKAGE</h2>
+            <p class="howtext"> You select the package that fits best your budget and interests.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="how" src="../../static/images/pic2.png" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="howtitle">COMPLETE THE FORM</h2>
+            <p class="howtext">Answer a few quick questions so we can book the best experience for you.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="how" src="../../static/images/pic3.png" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="howtitle">GO SOMEWHERE</h2>
+            <p class="howtext">We do all the planning. All you need to do is show up and enjoy your vacation.</p>
+        </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <div class="learnmore"><button class="btn1" type="submit">LEARN MORE</button></div>
+        <div id="hiddenhow">
+            <div class="row featurette steps">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading howtitle1">STEP 1</h2>
+                    <p class="lead howtext1">You login and answer a few quick questions. We'll need to know:</p>
+                    <ul>
+                        <li class="howtext1">Your chosen package</li>
+                        <li class="howtext1">Travel dates</li>
+                        <li class="howtext1">Number of travelers</li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block detailsimg1" src="../../static/images/pic4.png" alt="Generic placeholder image">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette steps">
+                <div class="col-md-7 col-md-push-5">
+                    <h2 class="featurette-heading howtitle1">STEP 2</h2>
+                    <p class="lead howtext1">We book your travel + accommodation, given your package.</p>
+                </div>
+                <div class="col-md-5 col-md-pull-7">
+                        <img class="featurette-image img-responsive center-block detailsimg2" src="../../static/images/pic6.png" alt="Generic placeholder image">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette steps">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading howtitle1">STEP 3</h2>
+                    <p class="lead howtext1">A week before your departure, you receive an email. This email contains:</p>
+                    <ul>
+                        <li class="howtext1">The weather forecast for your mystery destination</li>
+                        <li class="howtext1">Recommended items to pack (a bathing suit, hiking boots)</li>
+                        <li class="howtext1">Any luggage size restrictions</li>
+                        <li class="howtext1">Where to go and when (London Airport, Friday at 10:30)</li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                        <img class="featurette-image img-responsive center-block detailsimg3" src="../../static/images/pic7.png" alt="Generic placeholder image">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette steps">
+                <div class="col-md-7 col-md-push-5">
+                    <h2 class="featurette-heading howtitle1">STEP 4</h2>
+                    <p class="lead howtext1">A few days before your trip, you receive an envelope in the mail, which you do NOT open just yet. This envelope contains directions to your accommodation, and your city guide. Since you don't have time to do research on your destination, we do it for you! We'll send you off with a curated list of recommendations for everything from cafes to nightlife to rainy day activities. We promise you won't be bored wherever you go.</p>
+                </div>
+                <div class="col-md-5 col-md-pull-7">
+                        <img class="featurette-image img-responsive center-block detailsimg4" src="../../static/images/pic5.png" alt="Generic placeholder image">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette steps">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading howtitle1">STEP 5</h2>
+                    <p class="lead howtext1">You go to the designated location at the given time, open your envelope, and Go! </p>
+                </div>
+                <div class="col-md-5">
+                        <img class="featurette-image img-responsive center-block detailsimg5" src="../../static/images/pic8.png" alt="Generic placeholder image">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+        </div>
+        <script>
+                $('document').ready(function(){
+                    $('#hiddenhow').hide();
+        
+                    $(".btn1").click(function(){
+                        $('#hiddenhow').show();
+                    });
+                });
+        </script>
+        {% endblock %}
+        
+

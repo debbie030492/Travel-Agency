@@ -1,0 +1,27 @@
+.orders{
+    padding-top:100px;
+    padding-bottom:100px;
+    width:30%;
+    margin:auto;
+}
+
+.orderstext{
+    color:#073763;
+    font-size:24px;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+    text-align: left;
+    text-decoration:underline;
+}
+
+.orderssubtext{
+    color:#073763;
+    font-size:18px;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+    text-align: left;
+}
+
+.space{
+    padding-right:50px;
+}

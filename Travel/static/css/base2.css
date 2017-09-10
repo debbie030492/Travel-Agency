@@ -1,0 +1,32 @@
+.logo{
+    height:50px;
+}
+.navbar{
+    font-family: 'Roboto Slab', serif;
+    background-color:white;
+}
+
+button{
+    height: 30px;
+    margin-top: -5px;
+    width:150px;
+    background:    #3d85c6;
+    background:    -webkit-linear-gradient(#3d85c6, #073763);
+    background:    linear-gradient(#3d85c6, #073763);
+    border-radius: 5px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal 16px;
+    text-align:    center;
+    text-shadow:   1px 1px #000000;
+}
+
+.tab{
+    margin-left:80px;
+}
+
+footer{
+    margin-top:20px;
+    padding:10px;
+    float:right;
+}

@@ -1,0 +1,41 @@
+
+
+.stripe5{
+    background-image:url("../images/img4.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:700px;
+    width:100%
+}
+
+.textstr5{
+    color:white;
+    font-size:60px;
+    font-family: 'Roboto Slab', serif;
+    padding: 170px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.stripe6{
+    padding-top:30px;
+}
+
+.textstr6{
+    color:#073763;
+    font-size:44px;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+    text-align: center;
+    font-weight:bold;
+    padding-top:40px;
+}
+
+.textstr62{
+    color:#073763;
+    font-size:18px;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+    text-align: center;
+}
+

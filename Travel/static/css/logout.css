@@ -1,0 +1,24 @@
+.logout{
+    margin-top:100px;
+}
+
+.logoutlogo{
+    height:400px;
+}
+
+.logos{
+    width:600px;
+    height:350px;
+    display:block;
+    margin:auto;
+}
+
+.logouttext{
+    color:#073763;
+    font-size:60px;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+    text-align: center;
+    font-weight:bold;
+    padding-top:0px;
+}

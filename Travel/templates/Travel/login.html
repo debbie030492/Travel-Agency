@@ -1,0 +1,51 @@
+{% extends "Travel/base2.html" %}
+
+{% block content %}
+    <div id="content-container" class="container p-none loginform">
+        <div class="lgn-container col-lg-8">
+            <form class="form" id="login-form" method="post" 
+                  action="{% url 'django.contrib.auth.views.login' %}">
+                {% csrf_token %}
+                        <div class="header">
+                          <span class="text">LOGIN</span>
+                          <span class="loader"></span>
+                        </div>
+                <table class="table forms">
+                    <tr>
+                        <td><label for="id_username">Username</label></td>
+                        <td><input class="input" id="id_username" name="username" type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="id_password">Password</label></td>
+                        <td><input class="input" id="id_password" name="password" type="password" class="form-control"></td>
+                    </tr>
+                </table>
+                <input type="submit" value="SUBMIT" class="btn btn-primary pull-right btn1">
+                <input type="hidden" name="next" value="{{ next }}" />
+                {% if form.errors %}
+                <br><br><br><br>
+                    <p class=" label label-danger">
+                        Your username and password didn't match. 
+                        Please try again or register yourself before.<br>
+                    </p>
+                {% endif %}
+            </form>
+        </div>
+    </div>
+    <script>
+            $(document).ready(function() {
+      $('.input').on('focus', function() {
+        $('.login').addClass('clicked');
+      });
+      $('.login').on('submit', function(e) {
+        e.preventDefault();
+        $('.login').removeClass('clicked').addClass('loading');
+      });
+      $('.resetbtn').on('click', function(e){
+          e.preventDefault();
+        $('.login').removeClass('loading');
+      });
+    });
+    </script>
+{% endblock content %}
+   

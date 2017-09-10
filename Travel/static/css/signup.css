@@ -1,0 +1,74 @@
+.logo{
+    height:50px;
+}
+.navbar{
+    font-family: 'Roboto Slab', serif;
+    background-color:white;
+}
+
+button{
+    height: 30px;
+    margin-top: -5px;
+    width:100px;
+    background:    #3d85c6;
+    background:    -webkit-linear-gradient(#3d85c6, #073763);
+    background:    linear-gradient(#3d85c6, #073763);
+    border-radius: 5px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal 16px;
+    text-align:    center;
+    text-shadow:   1px 1px #000000;
+}
+
+.tab{
+    margin-left:80px;
+}
+
+.signupform{
+    margin-top:60px;
+    color:#073763;
+    font-size:24px;
+    font-family: 'Roboto Slab', serif;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:64%;
+    padding-top:40px;
+    text-align:left;
+}
+
+.signuptitle{
+    color:#073763;
+    font-size:44px;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+    text-align: center;
+    font-weight:bold;
+    padding-top:40px;
+}
+
+.btn1{
+    height: 80px;
+    margin-top:30px;
+    width:400px;
+    background:    #3d85c6;
+    background:    -webkit-linear-gradient(#3d85c6, #073763);
+    background:    linear-gradient(#3d85c6, #073763);
+    border-radius: 5px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal 16px;
+    text-align:    center;
+    text-shadow:   1px 1px #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:40px;
+}
+
+footer{
+    margin-top:20px;
+    padding:10px;
+    float:right;
+}
